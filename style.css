@@ -1,0 +1,241 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(images/camping.jpg);
+    background-position: center;
+    background-size: cover;
+    flex-wrap: wrap;
+}
+
+.box{
+    width: 300px;
+    height: 200px;
+    background-color:rgba(54, 126, 24, 0.4) ;
+    border-radius: 10px;
+    border: 2px solid #224B0C;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px 10px 10px 10px;
+}
+
+h1{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+p{
+    font-size: 14px;
+    margin-left: 20px;
+}
+
+button{
+    text-align: center;
+    background-color: #FEDB39;
+    border: 2px solid #224B0C;
+    border-radius: 10px;
+    color: #224B0C;
+    font-size: 20px;
+    width: 50%;
+    padding: 3px 6px 3px 6px;
+    margin-top: 10px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.container1{
+    width: 100%;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+
+.product{
+    width: 400px;
+    height: 220px;
+    background-color: #C3FF99;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px solid #224B0C;
+    margin-top: 10px;
+}
+
+.pd{
+    width: 200px;
+    height: auto;
+    margin-left: 10px;
+}
+
+.text{
+    color: #224B0C;
+    width: 150px;
+    text-align: left;
+    padding: 2px 5px 2px 5px;
+    margin-right: 10px;
+}
+
+h2{
+    font-size: 22px;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.tp{
+    font-size: 14px;
+    margin-left: 0;
+    margin-bottom: 10px;
+    
+}
+
+.btn{
+        text-align: center;
+        background-color: #FEDB39;
+        border: 2px solid #224B0C;
+        border-radius: 7px;
+        color: #224B0C;
+        font-size: 17px;
+        width: 90%;
+        padding: 3px 6px 3px 6px;
+        margin-top: 10px;
+        cursor: pointer;
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+
+    .container3{
+        width: 100%;
+        height: auto;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: #224B0C;
+        flex-wrap: wrap;
+    }
+
+    .formimage{
+        width: 250px;
+        height: auto;
+        border: 2px solid #fff;
+        border-radius: 10px;
+        margin-top: 30px;
+        margin-bottom: 15px;
+    }
+
+    .formtext{
+        width: 280px;
+        height: auto;
+        color: #fff;
+    }
+
+    h3{
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 5px;
+    }
+
+    .fp{
+        margin-left: 0;
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    input{
+        width: 90%;
+        padding: 3px 6px 3px 6px;
+        border: 2px solid #224B0C;
+        border-radius: 5px;
+    }
+
+
+    @media (max-width:800px){
+
+        .container1{
+            margin-top: 10px;
+            margin-bottom: 10px;    
+        }
+        
+
+        .product{
+            width: 250px;
+            height: auto;
+            background-color: #C3FF99;
+            border-radius: 10px;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            border: 1px solid #224B0C;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            padding: 5px 5px 5px 5px;
+        }
+        
+        .pd{
+            width: 100px;
+            height: auto;
+            margin-left: 10px;
+        }
+        
+        .text{
+            color: #224B0C;
+            width: 120px;
+            text-align: left;
+            padding: 2px 5px 2px 5px;
+            margin-right: 5px;
+        }
+        
+        h2{
+            font-size: 18px;
+            text-align: left;
+            margin-bottom: 5px;
+        }
+        
+        .tp{
+            font-size: 11px;
+            margin-left: 0;
+            margin-bottom: 10px;
+            
+        }
+        
+        .btn{
+                text-align: center;
+                background-color: #FEDB39;
+                border: 2px solid #224B0C;
+                border-radius: 7px;
+                color: #224B0C;
+                font-size: 16px;
+                width: 90%;
+                padding: 3px 6px 3px 6px;
+                margin-top: 10px;
+                cursor: pointer;
+                font-weight: 600;
+                margin-bottom: 10px;
+            }
+    }
+
+    .end{
+        width: 100%;
+        height: 20px;
+        background-color: #468814;
+    }
